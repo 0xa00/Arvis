@@ -34,13 +34,13 @@ public final class KernelDebugStructure extends KernelStructure {
 `CHARARRAY`
 A fixed size array of bytes (`char`).
 ```java
-    CHARARRAY str = new CHARARRAY(16);
-    ...
-    str.update("Some String");
+CHARARRAY str = new CHARARRAY(16);
+...
+str.update("Some String");
 ```
 At the driver part:
 ```c
-    CHAR szChars[16];
+CHAR szChars[16];
 ```
 
 ## License

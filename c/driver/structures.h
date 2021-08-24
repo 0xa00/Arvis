@@ -4,7 +4,7 @@
 #include <wdm.h>
 
 typedef struct _KERNEL_DEBUG {
-    LPCSTR szMessage;
+    CHAR szMessage[24];
 } KERNEL_DEBUG, *PKERNEL_DEBUG;
 #define IOCTL_KERNEL_DEBUG (CTL_CODE(FILE_DEVICE_UNKNOWN, 0x001, METHOD_BUFFERED, FILE_SPECIAL_ACCESS))
 

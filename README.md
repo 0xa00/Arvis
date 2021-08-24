@@ -1,6 +1,8 @@
 # Arvis
 
 Arvis is a Java application that can control a kernel mode device.
+I made this for easier hacking of EAC and BattlEye protected games and decided to release it.
+Please note that if you attempt to use this for an anti-cheat bypass, you may need to change the driver code.
 
 ## Features that are not implemented yet
 
@@ -45,4 +47,4 @@ CHAR szChars[16];
 
 ## License
 
-The Un-License
+The Unlicense

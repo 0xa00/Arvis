@@ -8,7 +8,7 @@ public final class Arvis {
     private final KernelDriver kernelDriver;
 
     public Arvis() throws DeviceOpenException {
-        this.kernelDriver = KernelDriver.createKernelDriver("ArvisLayer");
+        this.kernelDriver = KernelDriver.createKernelDriver("kArvisDevice");
 
         KernelDebugStructure kernelStructure = new KernelDebugStructure();
 
